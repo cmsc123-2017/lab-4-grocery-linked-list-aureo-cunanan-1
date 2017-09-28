@@ -1,5 +1,5 @@
 interface IGroceryList {
-  boolean add(GroceryItem item);
+  boolean addFirst(GroceryItem item);
   
   boolean remove(String name);
   
